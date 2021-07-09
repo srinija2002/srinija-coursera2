@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+    text-align: center;
+    font-size: 1.75em;
+    margin: 5%;
+    font-weight: bold;
+}
+
+.part{
+    width:33.33%;
+    display: inline-block;
+    border: 3px solid black;
+    margin: 1em;
+    background-color: rgb(185, 179, 179);
+}
+
+.container{
+    /* margin: 3%; */
+    /* padding: 3%; */
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.text{
+    font-size: 1.25em;
+    text-align: center;
+    position: relative;
+    width: 35%;
+    border: 3px solid black;
+    float: right;
+    clear: both;
+    font-weight: bold;
+    margin: 0px;
+
+}
+p{
+    padding: 1em 1em 0.5em 1em;
+}
+#chicken{
+    background-color: rgb(197, 110, 139);
+}
+#beef{
+    background-color: rgb(204, 55, 55);
+    color: white;
+}
+#sushi{
+    background-color: rgb(214, 163, 101);
+}
+
+@media (max-width:767px){
+.part{
+    width:90%
+}
+}
+
+@media (min-width:768px) and (max-width:800px){
+    .part{
+        width:44.5%;
+    } 
+    #part3{
+        width: 94%;
+        
+
+    }
+}
+@media (min-width:801px) and (max-width:991px){
+    .part{
+        width:45%;
+    } 
+    #part3{
+        width: 94%;
+    }
+}
+@media (min-width:992px) and (max-width:1222px){
+    .part{
+        width:29%;
+    }
+    
+    }
+    @media (min-width:1223px){
+        .part{
+            width:30%;
+        }
+        }
