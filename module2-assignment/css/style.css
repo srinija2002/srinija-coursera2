@@ -75,13 +75,13 @@ p{
         width: 94%;
     }
 }
-@media (min-width:992px) and (max-width:1222px){
+@media (min-width:992px) and (max-width:1244px){
     .part{
         width:29%;
     }
     
     }
-@media (min-width:1223px){
+@media (min-width:1245px){
         .part{
             width:30%;
         }
