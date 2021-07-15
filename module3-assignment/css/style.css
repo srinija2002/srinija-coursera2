@@ -1,0 +1,59 @@
+body{
+    font-size: 1.5em;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.navbar-default{
+    background-color: rgb(182, 176, 176);
+     border:0.1em solid black;
+}
+.navbar-brand{
+    padding: 1%;
+    padding-left: 2%;
+    font-size: 1.5em;
+    font-weight: 750;
+    
+}
+h1{
+    padding: 1.5%;
+    font-weight: 550;
+}
+h2{
+    font-weight: 550;
+}
+
+.container-fluid{
+    margin:3%;
+    width: auto;
+    padding: 1%;
+    background-color: rgb(182, 176, 176);
+}
+d-block{
+    font-size: 1.2em;
+}
+.navbar-toggler{
+    float: right;
+    clear: both;
+   
+}
+
+.navbar-light{
+    height: 10%;
+    padding-bottom: 0px;
+    color: black;
+}
+li{
+    border:2px solid black;
+    background-color:antiquewhite;
+}
+
+li:hover{
+    background-color: aquamarine;
+}
+
+@media (max-width:767px){
+    .container-fluid{
+        margin: 12%;
+        margin-top: 0%;
+    }
+}
