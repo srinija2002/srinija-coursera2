@@ -31,11 +31,20 @@ h2{
 d-block{
     font-size: 1.2em;
 }
-.navbar-toggler{
+button.navbar-toggler{
     float: right;
     clear: both;
-   
+    margin-right: 8px;
+   /* border: 1px solid black; */
+   /* border-radius: 0.2em; */
+   /* padding: 1em; */
 }
+
+/* .navbar-toggler-icon{
+    border: 1px solid black;
+    padding: 1em;
+    border-radius: 0.3em;
+} */
 
 .navbar-light{
     height: 10%;
